@@ -1,0 +1,103 @@
+.mainWrapper {
+	width: 1000px;
+	height: 100%;
+	margin: 25px auto;
+	padding: 10px 10px;
+	border: 1px solid #caccc9;
+	background-color: #fefffc;
+}
+
+.headerWrapper p {
+	font-size: 30px;
+	font-weight: 600;
+	border-bottom: 1px dashed black;
+}
+
+.aroundMainWrapper {
+	background-color: #edefeb;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pagesStyle {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pageNumberItem {
+	width: 20px;
+	border: 1px solid #caccc9;
+	padding: 0px 5px;
+	margin-right: 4px;
+	margin-bottom: 3px;
+	text-align: center;
+	background-color: #edefeb;
+	cursor: pointer;
+}
+
+.headerPaginationMenu p {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 9px;
+}
+
+.active {
+	background-color: #832b5b;
+	color: white;
+}
+
+.newsBodyContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.newsBodyHeader{
+	display: flex;
+}
+
+.dateItem{
+	display: block;
+	padding: 5px 5px;
+	background-color: #832b5b;
+	color: #fefffc;
+}
+
+.titleItem{
+	display: block;
+	margin-top: 5px;
+	margin-left: 5px;
+	text-decoration: underline;
+	color: #0006f2;
+	cursor: pointer;
+}
+
+.announceItem {
+	margin-bottom: 15px;
+	height: 60px;
+}
+
+.newsBodyWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px dashed black;
+}
+
+.headerNewWrapper p{
+	font-size: 25px;
+	font-weight: 600;
+	border-bottom: 1px dashed black;
+	padding-bottom: 5px;
+}
+
+.contentNew {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.allNewsBtn {
+	display: block;
+	text-decoration: underline;
+	color: #0006f2;
+	cursor: pointer;
+}
